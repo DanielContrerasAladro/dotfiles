@@ -24,6 +24,12 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion2
 
+# gpg1
+brew install gpg1
+
+#wifi tools
+brew install wifi-password
+
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
